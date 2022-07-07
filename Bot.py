@@ -2,7 +2,7 @@ import requests
 import time 
 import json
 
-class TelegramBot:
+class TelegramBot: #Classe do bot
     def __init__(self):
         CHAVE_API = "5413479100:AAGZdT7WeMdfkzv7CVE4vL2eZv0mAVaLtCQ"
         self.url_base = f'https://api.telegram.org/bot{CHAVE_API}'
